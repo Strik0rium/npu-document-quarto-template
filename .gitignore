@@ -10,10 +10,7 @@ wheels/
 .venv
 
 # Quarto files
-.quarto/
-.quarto/xref/
-.quarto/cache/
-*.quarto_ipy*
-
 pic/
 articles/
+/.quarto/
+**/*.quarto_ipynb*
