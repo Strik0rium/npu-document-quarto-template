@@ -1,0 +1,23 @@
+project:
+  type: default
+  output-dir: ./articles
+
+bibliography: references.bib
+callout-appearance: simple
+toc: true
+toccolor: black
+
+format: 
+  pdf:
+    template: tex_utils/npu_custom_template.latex
+    pdf-engine: xelatex
+    documentclass: article
+    fontsize: 10pt
+    monofont: "JetBrains Mono"
+    geometry:
+      - paperwidth=210mm
+      - paperheight=297mm
+      - top=36.8mm
+      - bottom=31.8mm
+      - left=25.4mm
+      - right=25.4mm

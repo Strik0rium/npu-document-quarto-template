@@ -1,0 +1,41 @@
+%% 导入 geometry 宏包
+\usepackage{geometry}
+
+\usepackage{amsthm, amssymb, amsmath, mathrsfs, siunitx, mathtools, extarrows, amsfonts}
+\usepackage[version=4]{mhchem}
+\usepackage{caption, subcaption, float, xcolor}
+\usepackage{longtable, diagbox, booktabs, cite, bookmark, multirow}
+% \usepackage[hang,flushmargin]{footmisc}
+
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\small}
+\AtBeginEnvironment{tabular}{\small}
+\usepackage{enumitem}
+\setlist[description]{
+    style=nextline,
+    leftmargin=1.5em
+}
+
+\usepackage{setspace}
+\BeforeBeginEnvironment{Shaded}{\vspace{0.5em}\begin{spacing}{1}}
+\AfterEndEnvironment{Shaded}{\end{spacing}}
+\BeforeBeginEnvironment{verbatim}{\vspace{-0.5em}\begin{spacing}{1}}
+\AfterEndEnvironment{verbatim}{\end{spacing}}
+
+% \usepackage{multirow}
+% \usepackage{multicol}
+% \usepackage{makecell}
+% \setcellgapes{0.5em}
+
+% \setlength\abovedisplayskip{0.5em plus 0.05em minus 0.25em}%
+% \setlength\belowdisplayskip{0.5em plus 0.05em minus 0.25em}%
+% \setlength\abovedisplayshortskip{0.15em plus 0.1em minus 0.1em}%
+% \setlength\belowdisplayshortskip{0.15em plus 0.1em minus 0.1em}%
+
+% \expandafter\def\expandafter\normalsize\expandafter{%
+%     \normalsize%
+%     \setlength\abovedisplayskip{0.5em plus 0.05em minus 0.25em}%
+%     \setlength\belowdisplayskip{0.5em plus 0.05em minus 0.25em}%
+%     \setlength\abovedisplayshortskip{0.15em plus 0.05em minus 0.05em}%
+%     \setlength\belowdisplayshortskip{0.15em plus 0.05em minus 0.05em}%
+% }

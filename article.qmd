@@ -1,0 +1,11 @@
+---
+title: "Hello, Quarto!"
+subtitle: "A modern static site generator"
+author: "Strik0r"
+date: "2026-05-12"
+---
+
+# Hello, Quarto!
+
+Test.
+

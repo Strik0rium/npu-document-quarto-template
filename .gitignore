@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Quarto files
+.quarto/
+.quarto/xref/
+.quarto/cache/
+*.quarto_ipy*
+
+pic/
+articles/
