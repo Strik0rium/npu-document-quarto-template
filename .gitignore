@@ -10,7 +10,6 @@ wheels/
 .venv
 
 # Quarto files
-pic/
 articles/
 /.quarto/
 **/*.quarto_ipynb*
